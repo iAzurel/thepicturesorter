@@ -26,8 +26,8 @@ def detect_face(image_path, face_cascade):
 # Moves pictures based on detection of faces.
 def imagesChecker():
 
-	imgs_path = '/home/murtaza/Documents/Project/Pictures/'
-	nofacesdir = '/home/murtaza/Documents/Project/NoFaces/'
+	imgs_path = '/home/murtaza/Documents/thepicturesorter/Pictures/'
+	nofacesdir = '/home/murtaza/Documents/thepicturesorter/NoFaces/'
 	face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 	imgs = os.listdir(imgs_path)
 
